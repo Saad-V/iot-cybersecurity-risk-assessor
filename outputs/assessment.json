@@ -1,0 +1,301 @@
+{
+    "overall_summary": {
+        "devices_assessed": 8,
+        "devices_with_findings": 6,
+        "total_findings": 17,
+        "severity_counts": {
+            "Critical": 12,
+            "High": 3,
+            "Medium": 2,
+            "Low": 0
+        }
+    },
+    "device_summaries": {
+        "DEV001": {
+            "total_findings": 4,
+            "critical": 3,
+            "high": 1,
+            "medium": 0,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            }
+        },
+        "DEV003": {
+            "total_findings": 4,
+            "critical": 3,
+            "high": 0,
+            "medium": 1,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            }
+        },
+        "DEV004": {
+            "total_findings": 1,
+            "critical": 0,
+            "high": 1,
+            "medium": 0,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing security logging",
+                "likelihood": 3,
+                "impact": 4,
+                "risk_score": 12,
+                "severity": "High",
+                "csf_control": "PR.PS-04",
+                "control": "Log records are generated and made available for continuous monitoring",
+                "recommendation": "Configure devices and services to generate security logs and make them available to a logging system."
+            }
+        },
+        "DEV005": {
+            "total_findings": 5,
+            "critical": 3,
+            "high": 1,
+            "medium": 1,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            }
+        },
+        "DEV006": {
+            "total_findings": 1,
+            "critical": 1,
+            "high": 0,
+            "medium": 0,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            }
+        },
+        "DEV007": {
+            "total_findings": 2,
+            "critical": 2,
+            "high": 0,
+            "medium": 0,
+            "low": 0,
+            "highest_risk": {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            }
+        }
+    },
+    "findings": {
+        "DEV001": [
+            {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            },
+            {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            },
+            {
+                "issue": "Missing security logging",
+                "likelihood": 3,
+                "impact": 4,
+                "risk_score": 12,
+                "severity": "High",
+                "csf_control": "PR.PS-04",
+                "control": "Log records are generated and made available for continuous monitoring",
+                "recommendation": "Configure devices and services to generate security logs and make them available to a logging system."
+            },
+            {
+                "issue": "Outdated firmware",
+                "likelihood": 4,
+                "impact": 4,
+                "risk_score": 16,
+                "severity": "Critical",
+                "csf_control": "PR.PS-02",
+                "control": "Software is maintained, replaced, and removed commensurate with risk",
+                "recommendation": "Apply security updates and replace unsupported firmware/software according to risk."
+            }
+        ],
+        "DEV003": [
+            {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            },
+            {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            },
+            {
+                "issue": "Missing backup",
+                "likelihood": 2,
+                "impact": 5,
+                "risk_score": 10,
+                "severity": "Medium",
+                "csf_control": "PR.DS-11",
+                "control": "Backups of data are created, protected, maintained, and tested",
+                "recommendation": "Create, protect, maintain, and periodically test backups."
+            },
+            {
+                "issue": "Outdated firmware",
+                "likelihood": 4,
+                "impact": 4,
+                "risk_score": 16,
+                "severity": "Critical",
+                "csf_control": "PR.PS-02",
+                "control": "Software is maintained, replaced, and removed commensurate with risk",
+                "recommendation": "Apply security updates and replace unsupported firmware/software according to risk."
+            }
+        ],
+        "DEV004": [
+            {
+                "issue": "Missing security logging",
+                "likelihood": 3,
+                "impact": 4,
+                "risk_score": 12,
+                "severity": "High",
+                "csf_control": "PR.PS-04",
+                "control": "Log records are generated and made available for continuous monitoring",
+                "recommendation": "Configure devices and services to generate security logs and make them available to a logging system."
+            }
+        ],
+        "DEV005": [
+            {
+                "issue": "Missing authentication",
+                "likelihood": 5,
+                "impact": 5,
+                "risk_score": 25,
+                "severity": "Critical",
+                "csf_control": "PR.AA-03",
+                "control": "Users, services, and hardware are authenticated",
+                "recommendation": "Implement appropriate authentication for users, services, and devices."
+            },
+            {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            },
+            {
+                "issue": "Missing security logging",
+                "likelihood": 3,
+                "impact": 4,
+                "risk_score": 12,
+                "severity": "High",
+                "csf_control": "PR.PS-04",
+                "control": "Log records are generated and made available for continuous monitoring",
+                "recommendation": "Configure devices and services to generate security logs and make them available to a logging system."
+            },
+            {
+                "issue": "Missing backup",
+                "likelihood": 2,
+                "impact": 5,
+                "risk_score": 10,
+                "severity": "Medium",
+                "csf_control": "PR.DS-11",
+                "control": "Backups of data are created, protected, maintained, and tested",
+                "recommendation": "Create, protect, maintain, and periodically test backups."
+            },
+            {
+                "issue": "Outdated firmware",
+                "likelihood": 4,
+                "impact": 4,
+                "risk_score": 16,
+                "severity": "Critical",
+                "csf_control": "PR.PS-02",
+                "control": "Software is maintained, replaced, and removed commensurate with risk",
+                "recommendation": "Apply security updates and replace unsupported firmware/software according to risk."
+            }
+        ],
+        "DEV006": [
+            {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            }
+        ],
+        "DEV007": [
+            {
+                "issue": "Missing encryption",
+                "likelihood": 4,
+                "impact": 5,
+                "risk_score": 20,
+                "severity": "Critical",
+                "csf_control": "PR.DS-02",
+                "control": "The confidentiality, integrity, and availability of data-in-transit are protected",
+                "recommendation": "Use appropriate encryption and cryptographic mechanisms to protect device communications."
+            },
+            {
+                "issue": "Outdated firmware",
+                "likelihood": 4,
+                "impact": 4,
+                "risk_score": 16,
+                "severity": "Critical",
+                "csf_control": "PR.PS-02",
+                "control": "Software is maintained, replaced, and removed commensurate with risk",
+                "recommendation": "Apply security updates and replace unsupported firmware/software according to risk."
+            }
+        ]
+    }
+}

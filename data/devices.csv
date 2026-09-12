@@ -1,0 +1,9 @@
+device_id,device_type,protocol,firmware,authentication,encryption,logging,backup
+DEV001,ESP32,MQTT,Outdated,No,No,No,Yes
+DEV002,ESP32,MQTT,Current,Yes,Yes,Yes,Yes
+DEV003,Raspberry Pi,HTTP,Outdated,No,No,Yes,No
+DEV004,ESP32,MQTT,Current,Yes,Yes,No,Yes
+DEV005,Raspberry Pi,HTTP,Outdated,No,No,No,No
+DEV006,ESP32,MQTT,Current,Yes,No,Yes,Yes
+DEV007,ESP32,MQTT,Outdated,Yes,No,Yes,Yes
+DEV008,Raspberry Pi,HTTPS,Current,Yes,Yes,Yes,Yes
