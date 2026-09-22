@@ -140,7 +140,7 @@ These results are based on the included sample CSV data and are not representati
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/iot-cybersecurity-risk-assessor.git
+git clone https://github.com/Saad-V/iot-cybersecurity-risk-assessor.git
 cd iot-cybersecurity-risk-assessor
 ```
 
